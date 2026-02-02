@@ -3658,4 +3658,4 @@ task.spawn(function()
 	end
 end)
 
-SendNotify("XQuantum","GUI desenvolvida por XingLingPro0 - Versão 3",10)
+SendNotify("XQuantum","GUI desenvolvida por XingLingPro0 - Versão 1/2",10)
