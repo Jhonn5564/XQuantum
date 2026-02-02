@@ -6,7 +6,7 @@ if game.CoreGui:FindFirstChild("SysBroker") then
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "XQuantum",Text = "GUI já carregada, reconecte para executar novamente",Duration = 5;})
 	return
 end
-local version = 3
+local version = "1/2"
 --VARIABLES
 _G.AntiFlingToggled = false
 local FlingEnabled = false
@@ -956,7 +956,7 @@ Announce_Label.BorderSizePixel = 0
 Announce_Label.Position = UDim2.new(0, 25, 0, 150)
 Announce_Label.Size = UDim2.new(0, 350, 0, 150)
 Announce_Label.Font = Enum.Font.SourceSans
-Announce_Label.Text = "open source - some features may not work because i deleted Github repo"
+Announce_Label.Text = "XQuantum é uma versão modificada do script original então pode haver bugs que ja tinha no script original."
 Announce_Label.TextColor3 = Color3.fromRGB(150, 0, 0)
 Announce_Label.TextSize = 24.000
 Announce_Label.TextWrapped = true
@@ -1935,7 +1935,7 @@ Credits_Label.BorderSizePixel = 0
 Credits_Label.Position = UDim2.new(0, 25, 0, 150)
 Credits_Label.Size = UDim2.new(0, 350, 0, 150)
 Credits_Label.Font = Enum.Font.SourceSans
-Credits_Label.Text = "Version: "..version.."\nmade by: XingLingPro0"
+Credits_Label.Text = "Versão: "..version.."\nFeito por: XingLingPro0"
 Credits_Label.TextColor3 = Color3.fromRGB(150, 0, 0)
 Credits_Label.TextSize = 24.000
 Credits_Label.TextWrapped = true
