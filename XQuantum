@@ -1,6 +1,3 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
 --RELOAD GUI
 if game.CoreGui:FindFirstChild("SysBroker") then
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "XQuantum",Text = "GUI já carregada, reconecte para executar novamente",Duration = 5;})
@@ -1000,7 +997,7 @@ WalkSpeed_Input.Position = UDim2.new(0, 210, 0, 25)
 WalkSpeed_Input.Size = UDim2.new(0, 175, 0, 30)
 WalkSpeed_Input.Font = Enum.Font.Gotham
 WalkSpeed_Input.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
-WalkSpeed_Input.PlaceholderText = "Number [1-99999]"
+WalkSpeed_Input.PlaceholderText = "Numero de [1-99999]"
 WalkSpeed_Input.Text = ""
 WalkSpeed_Input.TextColor3 = Color3.fromRGB(20, 20, 20)
 WalkSpeed_Input.TextSize = 14.000
@@ -1030,7 +1027,7 @@ JumpPower_Input.Position = UDim2.new(0, 210, 0, 75)
 JumpPower_Input.Size = UDim2.new(0, 175, 0, 30)
 JumpPower_Input.Font = Enum.Font.Gotham
 JumpPower_Input.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
-JumpPower_Input.PlaceholderText = "Number [1-99999]"
+JumpPower_Input.PlaceholderText = "Numero de [1-99999]"
 JumpPower_Input.Text = ""
 JumpPower_Input.TextColor3 = Color3.fromRGB(20, 20, 20)
 JumpPower_Input.TextSize = 14.000
@@ -1105,7 +1102,7 @@ FlySpeed_Input.Position = UDim2.new(0, 210, 0, 125)
 FlySpeed_Input.Size = UDim2.new(0, 175, 0, 30)
 FlySpeed_Input.Font = Enum.Font.Gotham
 FlySpeed_Input.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
-FlySpeed_Input.PlaceholderText = "Number [1-99999]"
+FlySpeed_Input.PlaceholderText = "Numero de [1-99999]"
 FlySpeed_Input.Text = ""
 FlySpeed_Input.TextColor3 = Color3.fromRGB(20, 20, 20)
 FlySpeed_Input.TextSize = 14.000
